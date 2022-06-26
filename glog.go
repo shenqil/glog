@@ -23,6 +23,7 @@ func InitLog(conf *Config) {
 	setRetentionDays(conf.RetentionDays)
 	setFieldsOrder(conf.FieldsOrder)
 	setIsWriteToFile(conf.IsWriteToFile)
+	setLevel(conf.Level)
 
 	// 创建日志目录
 	if !isExistedDir(c.DirName) {
@@ -58,9 +59,10 @@ func createLog() {
 	}
 
 	if c.IsWriteToFile {
-		ztLog.SetupLogsCanExpand(Logger, f, true, fmt.Sprintf("./%s/%s", c.DirName, c.NamePrefix), int(logrus.DebugLevel))
+		ztLog.SetupLogsCanExpand(Logger, f, true, fmt.Sprintf("./%s/%s", c.DirName, c.NamePrefix), int(c.Level+1))
 	} else {
-		Logger.SetLevel(logrus.DebugLevel)
+		fmt.Println(c.Level)
+		Logger.SetLevel(logrus.Level(c.Level))
 		Logger.SetReportCaller(true)
 		Logger.SetFormatter(f)
 	}

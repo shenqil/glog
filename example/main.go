@@ -7,7 +7,8 @@ import (
 
 func main() {
 	glog.InitLog(&glog.Config{
-		IsWriteToFile: false,
+		IsWriteToFile: true,
+		Level:         glog.DebugLevel,
 	})
 
 	l := glog.Logger
