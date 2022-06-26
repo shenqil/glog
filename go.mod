@@ -1,4 +1,4 @@
-module glog
+module github.com/shenqil/glog
 
 go 1.18
 
