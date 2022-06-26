@@ -1,0 +1,28 @@
+[main.go:14::main.main()] 2022-06-26T17:07:57.5102933+08:00[37m [I] [0mthis is glog demo
+[main.go:17::main.main()] 2022-06-26T17:07:57.5232044+08:00[37m [I] [component:web-server] [0mstarting...
+[main.go:24::main.main()] 2022-06-26T17:07:57.5232044+08:00[37m [I] [component:web-server] [req:GET /api/stats] [reqId:#1] [0mparams: startYear=2048
+[31m[main.go:25::main.main()][0m 2022-06-26T17:07:57.5232044+08:00[31m [E] [component:web-server] [req:GET /api/stats] [reqId:#1] [0mresponse: 400 Bad Request
+[main.go:28::main.main()] 2022-06-26T17:07:57.5232044+08:00[37m [I] [category:db-connector] [0mconnecting to db on 10.10.10.13...
+[main.go:29::main.main()] 2022-06-26T17:07:57.5232044+08:00[36m [W] [category:db-connector] [0mconnection took 10s
+[main.go:31::main.main()] 2022-06-26T17:07:57.5242457+08:00[37m [I] [0mdemo end.
+[main.go:14::main.main()] 2022-06-26T17:15:55.3231179+08:00[37m [I] [0mthis is glog demo
+[main.go:17::main.main()] 2022-06-26T17:15:55.3352867+08:00[37m [I] [component:web-server] [0mstarting...
+[main.go:24::main.main()] 2022-06-26T17:15:55.3352867+08:00[37m [I] [component:web-server] [req:GET /api/stats] [reqId:#1] [0mparams: startYear=2048
+[31m[main.go:25::main.main()][0m 2022-06-26T17:15:55.3352867+08:00[31m [E] [component:web-server] [req:GET /api/stats] [reqId:#1] [0mresponse: 400 Bad Request
+[main.go:28::main.main()] 2022-06-26T17:15:55.3352867+08:00[37m [I] [category:db-connector] [0mconnecting to db on 10.10.10.13...
+[main.go:29::main.main()] 2022-06-26T17:15:55.3382956+08:00[36m [W] [category:db-connector] [0mconnection took 10s
+[main.go:31::main.main()] 2022-06-26T17:15:55.3383775+08:00[37m [I] [0mdemo end.
+[main.go:14::main.main()] 2022-06-26T17:16:37.961939+08:00[37m [I] [0mthis is glog demo
+[main.go:17::main.main()] 2022-06-26T17:16:37.9747316+08:00[37m [I] [component:web-server] [0mstarting...
+[main.go:24::main.main()] 2022-06-26T17:16:37.9747316+08:00[37m [I] [component:web-server] [req:GET /api/stats] [reqId:#1] [0mparams: startYear=2048
+[31m[main.go:25::main.main()][0m 2022-06-26T17:16:37.9747316+08:00[31m [E] [component:web-server] [req:GET /api/stats] [reqId:#1] [0mresponse: 400 Bad Request
+[main.go:28::main.main()] 2022-06-26T17:16:37.9747316+08:00[37m [I] [category:db-connector] [0mconnecting to db on 10.10.10.13...
+[main.go:29::main.main()] 2022-06-26T17:16:37.9747316+08:00[36m [W] [category:db-connector] [0mconnection took 10s
+[main.go:31::main.main()] 2022-06-26T17:16:37.9747316+08:00[37m [I] [0mdemo end.
+[main.go:14::main.main()] 2022-06-26T17:41:22.7981518+08:00[37m [I] [0mthis is glog demo
+[main.go:17::main.main()] 2022-06-26T17:41:22.8115493+08:00[37m [I] [component:web-server] [0mstarting...
+[main.go:24::main.main()] 2022-06-26T17:41:22.811642+08:00[37m [I] [component:web-server] [req:GET /api/stats] [reqId:#1] [0mparams: startYear=2048
+[31m[main.go:25::main.main()][0m 2022-06-26T17:41:22.811642+08:00[31m [E] [component:web-server] [req:GET /api/stats] [reqId:#1] [0mresponse: 400 Bad Request
+[main.go:28::main.main()] 2022-06-26T17:41:22.8121518+08:00[37m [I] [category:db-connector] [0mconnecting to db on 10.10.10.13...
+[main.go:29::main.main()] 2022-06-26T17:41:22.8121518+08:00[36m [W] [category:db-connector] [0mconnection took 10s
+[main.go:31::main.main()] 2022-06-26T17:41:22.8121518+08:00[37m [I] [0mdemo end.
